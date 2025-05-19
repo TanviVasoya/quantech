@@ -1,0 +1,417 @@
+@media screen and (min-width:992px) and (max-width:1199px) {
+    
+}
+@media screen and (max-width:992px) {
+    .mob_nav li a{
+        padding: 10px !important;
+    }
+    .header-1 {
+        padding: 15px 0px;
+    }
+    .menu-bar{
+        color: white;
+        background: linear-gradient(90.15deg, var(--accent-color) 1.15%, var(--accent-secondary-color) 98.84%);
+        font-size: 30px !important;
+        border-radius: 10px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .mob-view{
+        background-color:linear-gradient(90.15deg, var(--accent-color) 1.15%, var(--accent-secondary-color) 98.84%) !important;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+    .main_menu li a{
+        padding: 15px !important;
+    }
+    .collapse:not(.show) {
+        display: none;
+    }
+} 
+@media screen and (max-width:1420px) and (min-width:1024px){
+    .main_menu ul li a i{
+        display: none;
+    }
+    .theme-btn-h a{
+        padding: 1px 20px;
+    }
+    /* ===============banner area================== */
+    .img-text h6{
+        font-size: 15px;
+    }
+    .img-text h1{
+        font-size: 46px;
+    }
+    .img-text p{
+        font-size: 14px;
+        width: 68%;
+
+    }
+    .img-text a{
+        padding: 10px 30px;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:80px;
+        transition-duration: .6s;
+    }
+    /* ================about area======================= */
+    .s-title h2{
+        font-size: 42px;
+    }
+    .about-img-v .play-btn {
+        left: 40%;
+        top: 72%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }
+    /* =======================Faq area========================= */
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1410px;
+    }
+    .s-top {
+        position: absolute;
+        top:2968px;
+        left: -4px;
+        z-index: 1;
+    }
+    .s-bottom {
+        position: absolute;
+        bottom: -3924px;
+        left: -5px;
+        z-index: 1;
+    }
+    /* =================== project================== */
+    .project-card{
+        height: 540px;
+        border-radius:8px;
+        /* display: flex; */
+        /* background-size: cover; */
+        /* align-items: flex-end; */
+    }
+    /* .img2{
+        position: relative;
+        left: 523px;
+        bottom: 572px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    } */
+     /* ====================video banner========================= */
+
+    .video-con h1{
+        font-family: var(--FontM);
+        font-size: 48px;
+        line-height: 1.4;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+    /* ===============banner area================== */
+    .img-text h6{
+        font-size: 13px;
+    }
+    .img-text h1{
+        font-size: 34px;
+    }
+    .img-text p{
+        font-size: 13px;
+        width: 71%;
+    }
+    .img-text a{
+        padding: 15px 30px;
+    }
+    .slide-bg{
+        padding: 100px 100px;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+    /* ================about area======================= */
+    .s-title h2{
+        font-size: 40px;
+    }
+    .about-img-v .play-btn {
+        left: 40%;
+        top: 74%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }
+    .pb-120{
+        padding: 80px 0;
+    }
+    /* =======================Faq area========================= */
+
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1415px;
+    }
+    .s-top {
+        top:2960px;
+        left: -4px;
+    }
+    .s-bottom {
+        bottom: -3924px;
+        left: -5px;
+    }
+    /* ===================best project================== */
+    /* ======================video banner========================= */
+    .mt{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:768px) and (min-width:425px){
+    /* ===============banner area================== */
+    .img-text h6{
+        font-size: 13px;
+    }
+    .img-text h1{
+        font-size: 25px;
+        width: 124%;
+        margin:0 -20px;
+    }
+    .img-text p{
+        font-size: 13px;
+        width: 124%;
+        margin-left: -22px;
+    }
+    .img-text a{
+        padding: 15px 30px;
+    }
+    .slide-bg{
+        padding: 100px 100px;
+    }
+    .owl-theme .owl-nav .owl-prev,.owl-next span{
+        display: none;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+    /* ================about area======================= */
+    .s-title h2{
+        font-size: 28px;
+    }
+    .about-img-v .play-btn{
+        left: 40%;
+        top: 47%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }
+    .play-btn .play-v{
+        width: 55px;
+        height: 55px;
+        background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
+        line-height: 88px;
+        transition: all .3s ease-in-out;
+        animation: videop infinite 3.5s;
+        font-size: 22px;
+        text-align: center;
+        color: var(--ColorWhite);
+        &:hover{
+            color: var(--BgColor);
+        }
+    }
+     @keyframes videop{
+        0%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0.2);
+        }
+        40%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        80%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        100%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0)
+        }
+    } 
+    .fa-play:before {
+        content: "\f04b";
+        top: -15px;
+        position: relative;
+    }
+    /* =======================Faq area========================= */
+
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1170px;
+    }
+    .s-top {
+        top: 3707px;
+        left: 79px;
+    }
+    .s-top img{
+        width: 345px;
+        height: 203px;
+    }
+    .s-bottom {
+        bottom: -4423px;
+        left: -5px;
+    }
+    .s-bottom img{
+        width: 345px;
+        height: 203px;
+    }
+}
+@media screen and (max-width:425px) and (min-width:375px){
+    /* ===============banner area================== */
+    .img-text h6{
+        font-size: 13px;
+    }
+    .img-text h1{
+        font-size: 25px;
+        width: 124%;
+        margin:0 -20px;
+    }
+    .img-text p{
+        font-size: 13px;
+        width: 124%;
+        margin-left: -22px;
+    }
+    .img-text a{
+        padding: 13px 30px;
+        font-size: 14px;
+    }
+    .about-img-v img + img{
+        width: 330px;
+    }
+    .slide-bg{
+        padding: 100px 100px;
+    }
+    .owl-theme .owl-nav .owl-prev,.owl-next span{
+        display: none;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+    /* ================about area======================= */
+    .s-title h2{
+        font-size: 28px;
+    }
+    .about-img-v .play-btn{
+        left: 40%;
+        top: 47%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }
+    .play-btn .play-v{
+        width: 55px;
+        height: 55px;
+        background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
+        line-height: 88px;
+        transition: all .3s ease-in-out;
+        animation: videop infinite 3.5s;
+        font-size: 22px;
+        text-align: center;
+        color: var(--ColorWhite);
+        &:hover{
+            color: var(--BgColor);
+        }
+    }
+     @keyframes videop{
+        0%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0.2);
+        }
+        40%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        80%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        100%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0)
+        }
+    } 
+    .fa-play:before {
+        content: "\f04b";
+        top: -15px;
+        position: relative;
+    }
+    /* =======================Faq area========================= */
+
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1170px;
+    }
+    .s-top {
+        top: 3724px;
+        left: 29px;
+    }
+    .s-top img{
+        width: 345px;
+        height: 203px;
+    }
+    .s-bottom {
+        bottom: -4306px;
+        left: -5px;
+    }
+    .s-bottom img{
+        width: 345px;
+        height: 203px;
+    }
+}
+
+   
+
+
