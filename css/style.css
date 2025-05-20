@@ -638,18 +638,13 @@ ul{
     content: '';
     position: absolute;
     left: 0;
-    top: 2295px;
     width: 35%;
     height: 859px;
     background-color: #d6fa52;
     z-index: 1;
 }
-.s-top {
-    top: 2295px;
-    left: -4px;
-}
 .s-bottom {
-    bottom: -2476px;
+    top: 2805px;
     left: -5px;
 }
 .faq-img{

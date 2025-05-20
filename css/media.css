@@ -84,41 +84,17 @@
     /* =======================Faq area========================= */
     .left-bg::before{
         display: none;
-    
     }
     .bg-gradient{
         background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
         overflow: hidden;
         height: 1410px;
     }
-    .s-top {
-        position: absolute;
-        top:2968px;
-        left: -4px;
-        z-index: 1;
-    }
-    .s-bottom {
-        position: absolute;
-        bottom: -3924px;
-        left: -5px;
-        z-index: 1;
-    }
     /* =================== project================== */
     .project-card{
         height: 540px;
         border-radius:8px;
-        /* display: flex; */
-        /* background-size: cover; */
-        /* align-items: flex-end; */
     }
-    /* .img2{
-        position: relative;
-        left: 523px;
-        bottom: 572px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    } */
      /* ====================video banner========================= */
 
     .video-con h1{
@@ -181,18 +157,14 @@
         overflow: hidden;
         height: 1415px;
     }
-    .s-top {
-        top:2960px;
-        left: -4px;
-    }
-    .s-bottom {
-        bottom: -3924px;
-        left: -5px;
-    }
     /* ===================best project================== */
     /* ======================video banner========================= */
     .mt{
         margin-top: 30px;
+    }
+    /* ==============================footer================================ */
+    footer .footer-b .bottom-con{
+        padding: 20px;
     }
 }
 @media screen and (max-width:768px) and (min-width:425px){
@@ -283,22 +255,6 @@
         background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
         overflow: hidden;
         height: 1170px;
-    }
-    .s-top {
-        top: 3707px;
-        left: 79px;
-    }
-    .s-top img{
-        width: 345px;
-        height: 203px;
-    }
-    .s-bottom {
-        bottom: -4423px;
-        left: -5px;
-    }
-    .s-bottom img{
-        width: 345px;
-        height: 203px;
     }
 }
 @media screen and (max-width:425px) and (min-width:375px){
@@ -393,22 +349,6 @@
         background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
         overflow: hidden;
         height: 1170px;
-    }
-    .s-top {
-        top: 3724px;
-        left: 29px;
-    }
-    .s-top img{
-        width: 345px;
-        height: 203px;
-    }
-    .s-bottom {
-        bottom: -4306px;
-        left: -5px;
-    }
-    .s-bottom img{
-        width: 345px;
-        height: 203px;
     }
 }
 
