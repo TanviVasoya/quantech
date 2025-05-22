@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$(".banner-slide").owlCarousel({
+$("#banner-owl-carousel").owlCarousel({
     items:1,
     nav:true,
     loop:true,
@@ -10,6 +10,34 @@ $(".banner-slide").owlCarousel({
     // slideBy:2,
     
 });
+$("#testimonial-owl-carousel").owlCarousel({
+     margin: 20,
+     items:2,  
+     loop: true,
+     dots:true,
+     responsiveClass: true,
+    //  autoHeight: true,
+    //  autoplayTimeout: 7000,
+    //  smartSpeed: 800,
+    //  nav: true,
+     responsive: {
+       0: { 
+         items: 1
+       },
+     
+       768: {
+         items: 1
+       },
+     
+       1024: {
+         items: 2
+       },
+     
+       1199: {
+         items: 2
+       }
+     }
+  })
   var owl = $('.owl-carousel');
   owl.owlCarousel();
   // Listen to owl events:
@@ -31,12 +59,15 @@ $(".banner-slide").owlCarousel({
         // $('.scrolltop').fadOut()
     }
   })
-  $(".owl-track").owlCarousel({
-    items:2,
-    // nav:false,
-    // loop:true,
-    // dots:false,
+   // init Isotope
+    var $grid = $('.grid').isotope({
+    // options
+    });
+    // filter items on button click
+    $('.filter-button-group').on( 'click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
     
-});
 
 });

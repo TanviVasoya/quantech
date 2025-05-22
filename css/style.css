@@ -446,12 +446,6 @@ ul{
     opacity: 0.5;
     transform: scale(0.5);
 }
-/* .owl-stage-outer,
-.owl-stage,
-.owl-item{
-    height: 100%;
-    width: 100%;
-} */
 .owl-theme .owl-dots .owl-dot  span{
     background-color: rgba(248, 248, 248.04);
     border:1px solid rgba(248, 248, 248.04);
@@ -719,22 +713,6 @@ ul{
 }
 
 /* ======================projecr area======================= */
-.c-s-owl-carouse-arrow div{
-    width: 52px;
-    height: 52px;
-    color:#6D6D6DCC;
-    transition: all .5s ease-in-out;
-    font-size:20px;
-    border:1px solid rgba(109, 109, 108,0.8);
-    text-align: center;
-    cursor: pointer;
-    background-color: transparent;
-}
-.c-s-owl-carouse-arrow div:hover{
-    color: var(--BgBlack);
-    background-color: var(--BgColor);
-    border-color: var(--BgColor);
-}
 .project-card{
     height: 512px;
     border-radius:8px;
@@ -747,20 +725,20 @@ ul{
     background-position: center;
     background-size: cover;
 }
-.project-card::before {
+/* .project-card::before {
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
-    content: "";
-    background: #5f2dee;
+    background-color: var(--BgBlue);
     opacity: 0;
     visibility: hidden;
     width: 100%;
     height: 100%;
-    transform: scale(0.8);
+    transform: scale(0.8);   
     transition: all .5s ease-in-out;
     border-radius: 8px;
-}
+} */
 .project-card:hover::before{
     opacity: 0.4;
     visibility: visible;
@@ -769,7 +747,7 @@ ul{
 .plus-i{
     width: 60px;
     height: 60px;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 60px;
     border: 2px solid var(--ColorWhite);
     color: var(--ColorWhite);
@@ -780,6 +758,8 @@ ul{
     transition: all .5s ease-in-out;
     opacity: 0;
     visibility: hidden;
+    text-align: center;
+    border-radius: 50%;
 }
 .plus-i:hover{
     background-color: var(--BgColor);
@@ -1189,4 +1169,107 @@ nav .h-banner{
 .digit-count p{
     text-transform: capitalize;
     font-size: 18px;
+}
+        .width--2{
+            width: 50%;
+        }
+        .height--2{
+            height: 600px;
+        }
+
+.client-i {
+    width: 100%;
+}
+/* =====================================pricing area========================================= */
+.pricing-plan-box{
+    background-color: var(--BgColor);
+    padding: 60px;
+    margin-top: 30px;
+    position: relative;
+    border-radius: 4px;
+}
+.plan-title h2{
+    font-size: 30px;
+    margin-top: -5px;
+    text-transform: capitalize;
+    font-family: var(--FontM);
+    margin-bottom: 15px;
+    color: var(--BgBlack);
+    font-weight: 600;
+    line-height: 130%;
+}
+.plan-v{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    color: var(--FontColor);
+}
+.plan-v span{
+    display: block;
+    font-size: 80px;
+    font-family: var(--FontM);
+    color: var(--Bgsky);
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -3px;
+    margin-bottom: 10px;
+}
+.plan-btn{
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    padding-top: 15px;
+    color: var(--FontColor);
+}
+.plan-btn::before{
+    content: '';
+    position: absolute;
+    left: -15%;
+    top: 0;
+    background-color: var(--ColorWhite);
+    width: 130%;
+    height: 72%;
+    z-index: -1;
+}
+.plan-btn .price-btn{
+    margin-top: 10px;
+    background-color: var(--BgBlue);
+    color: var(--ColorWhite);
+}
+.price-btn{
+    padding: 18px 38px;
+    font-size: 16px;
+    font-weight: 600;
+    transition-duration: .4s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    &:hover{
+        background-color: var(--Bgsky);
+    }
+}
+.plan-s-list{
+    display: block;
+    margin-top: 40px;
+}
+.plan-s-list li{
+    margin-top: 12px;
+    position: relative;
+    color: var(--BgBlack);
+}
+/* .plan-s-list li i{
+    color: var(--BgBlack);
+    margin-left: 10px;
+} */
+
+.plan-s-list li::before {
+    content: "\F633";
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* font-family: "Font Awesome 5 Pro"; */
+    opacity: .5;
 }
