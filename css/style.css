@@ -707,8 +707,7 @@ ul{
 }
 .single-s-left-i .icon{
     overflow: hidden;
-    float: left;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .content h4{
     margin-bottom: 15px;
@@ -724,7 +723,6 @@ ul{
     margin: 0;
     font-size: 16px;
     text-align: left;
-    padding-left: 91px;
 }
 
 /* ======================projecr area======================= */
@@ -806,43 +804,42 @@ ul{
     font-family: var(--FontM);
 }
 /* ========================testimonial slider=========================== */
-
-.testimonial-slider .testimonial-list{
-    margin: 0 -15px;
-}
-.owl-item .active{
-    width: 603px;
-}
-.testimonial-list{
-    position: relative;
-    overflow: hidden;
-    display: block;
-    /* margin: 0; */
-    padding: 0;
-}
 .single-testimonial-c{
     border: 1px solid rgba(109, 109, 109, 0.16);
     padding: 30px 25px;
     border-radius: 8px;
     margin-top: 30px !important;
     transition: all .5s ease-in-out;
+    height: 370px;
+    width: 603px;
     &:hover{
         border: 1px solid var(--BgColor);
     }
 
 }
+.owl-carousel .owl-item img {
 
+    width: 124px;
+}
+
+.client-i img{
+    width: 124px;
+    height: 124px;
+}
+    .client-img{
+        text-align: center;
+    }
 .client-i i{
     position: absolute;
     top: 94px;
-    left: 107px;
+    left: 315px;
     font-size: 20px;
 }
 .client-i::before{
     content: '';
     position: absolute;
     top: 79px;
-    left: 92px;
+    left: 300px;
     height: 48px;
     width: 48px;
     background-color: var(--BgColor);
@@ -852,9 +849,10 @@ ul{
     line-height: 48px;
 }
 .single-testimonial-c .client-i{
-    margin-right: 30px;
     width: 124px;
     height: 124px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .testimonial-con p,span{
     color: var(--FontColor);
@@ -1038,7 +1036,9 @@ footer{
     }
 }
 /* ===========================about section==================================== */
-
+.page-h h1{
+    font-size: 48px;
+}
 .page-b::before{
     content: '';
     position: absolute;
@@ -1309,6 +1309,9 @@ nav .h-banner{
 
 }
 /* ========================news area===================== */
+.q-content{
+    padding: 50px;
+}
 .blog-post{
     margin-bottom: 40px;
     position: relative;
@@ -1448,7 +1451,7 @@ nav .h-banner{
         box-shadow: 0 0 0 0 rgba(37, 106, 215, 0);
     }
 }
-.quote-post .post-content{
+.quote-post .q-content{
     position: relative;
     background-color: var(--BgColor);
     border: none;

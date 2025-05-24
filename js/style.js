@@ -16,17 +16,22 @@ $("#testimonial-owl-carousel").owlCarousel({
     loop: true,
     dots:false,
     responsiveClass: true,
-    autoplay:true,
-    autoplayTimeout:5000,
+    // autoplay:true,
+    // autoplayTimeout:5000,
      smartSpeed: 800,
     //  nav: true,
      responsive: {
        0: { 
          items: 1
        },
-     
-       768: {
+       320: {
          items: 1
+       },
+       375: {
+         items: 1
+       },
+       768: {
+         items: 2
        },
      
        1024: {

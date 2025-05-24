@@ -43,7 +43,7 @@
         display: none;
     }
     .theme-btn-h a{
-        padding: 1px 20px;
+        padding: 14px 20px;
     }
     /* ===============banner area================== */
     .img-text h6{
@@ -103,6 +103,93 @@
         line-height: 1.4;
         width: 100%;
     }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .fun-counter-2{
+        margin-top: -50px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 454px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .quote-text h2{
+        font-size: 30px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
 }
 @media screen and (max-width:1024px) and (min-width:768px){
     /* ===============banner area================== */
@@ -132,6 +219,9 @@
         bottom:100px;
         transition-duration: .6s;
     }
+    .page-h h1{
+        font-size: 36px;
+    }
     /* ================about area======================= */
     .s-title h2{
         font-size: 40px;
@@ -155,15 +245,109 @@
     .bg-gradient{
         background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
         overflow: hidden;
-        height: 1415px;
+        height: 1410px;
     }
     /* ======================video banner========================= */
     .mt{
         margin-top: 30px;
     }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
     /* ==============================footer================================ */
     footer .footer-b .bottom-con{
         padding: 20px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 334px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 36px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
     }
 }
 @media screen and (max-width:768px) and (min-width:425px){
@@ -200,6 +384,9 @@
         bottom:100px;
         transition-duration: .6s;
     }
+    .page-h h1{
+        font-size: 36px;
+    }
     /* ================about area======================= */
     .s-title h2{
         font-size: 28px;
@@ -255,6 +442,111 @@
         overflow: hidden;
         height: 1170px;
     }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
+    /* =======================Faq area========================= */
+
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1170px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 30px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
 }
 @media screen and (max-width:425px) and (min-width:375px){
     /* ===============banner area================== */
@@ -262,9 +554,8 @@
         font-size: 13px;
     }
     .img-text h1{
-        font-size: 25px;
-        width: 124%;
-        margin:0 -20px;
+        font-size: 17px;
+        width: 100%;
     }
     .img-text p{
         font-size: 13px;
@@ -294,6 +585,9 @@
         bottom:100px;
         transition-duration: .6s;
     }
+     .page-h h1{
+        font-size: 36px;
+    }
     /* ================about area======================= */
     .s-title h2{
         font-size: 28px;
@@ -338,6 +632,15 @@
         top: -15px;
         position: relative;
     }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
     /* =======================Faq area========================= */
 
     .left-bg::before{
@@ -349,7 +652,283 @@
         overflow: hidden;
         height: 1170px;
     }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 352px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 22px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
 }
+@media screen and (max-width:375px) and (min-width:320px){
+    /* ===============banner area================== */
+    .img-text h6{
+        font-size: 13px;
+        width: 100%;
+    }
+    .img-text h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .img-text p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .img-text a{
+        padding: 13px 30px;
+        font-size: 14px;
+    }
+    .about-img-v img + img{
+        width: 330px;
+    }
+    .slide-bg{
+        padding: 100px 50px;
+    }
+    .owl-theme .owl-nav .owl-prev,.owl-next span{
+        display: none;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+    .page-h h1{
+        font-size: 36px;
+    }
+    /* ================about area======================= */
+    .s-title h2{
+        font-size: 28px;
+    }
+    .about-img-v .play-btn{
+        left: 40%;
+        top: 47%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }   
+    .play-btn .play-v{
+        width: 55px;
+        height: 55px;
+        background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
+        line-height: 88px;
+        transition: all .3s ease-in-out;
+        animation: videop infinite 3.5s;
+        font-size: 22px;
+        text-align: center;
+        color: var(--ColorWhite);
+        &:hover{
+            color: var(--BgColor);
+        }
+    }
+     @keyframes videop{
+        0%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0.2);
+        }
+        40%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        80%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        100%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0)
+        }
+    } 
+    .fa-play:before {
+        content: "\f04b";
+        top: -15px;
+        position: relative;
+    }
+    .video-con h1 {
+        font-size: 30px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
+    /* =======================Faq area========================= */
+
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1170px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 296px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 142px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 130px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 22px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
+}
+
 
    
 
