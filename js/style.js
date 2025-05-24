@@ -11,14 +11,14 @@ $("#banner-owl-carousel").owlCarousel({
     
 });
 $("#testimonial-owl-carousel").owlCarousel({
-     margin: 20,
-     items:2,  
-     loop: true,
-     dots:true,
-     responsiveClass: true,
-    //  autoHeight: true,
-    //  autoplayTimeout: 7000,
-    //  smartSpeed: 800,
+    margin: 20,
+    items:2,  
+    loop: true,
+    dots:false,
+    responsiveClass: true,
+    autoplay:true,
+    autoplayTimeout:5000,
+     smartSpeed: 800,
     //  nav: true,
      responsive: {
        0: { 
