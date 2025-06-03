@@ -73,6 +73,10 @@ $("#testimonial-owl-carousel").owlCarousel({
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({ filter: filterValue });
     });
-    
+    // scrollUp to top
 
+    $('#scrollUp').hide()
+    $('#scrollUp').click(function(){
+      $('html,body').animate(scrollTop = 0 ,1500)
+    })
 });
