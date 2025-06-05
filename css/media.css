@@ -37,6 +37,14 @@
     }
 } 
 @media screen and (max-width:1420px) and (min-width:1024px){
+     /* ===================preloader=================== */
+    .spinner{
+        height: 140px;
+        width: 140px;
+    }
+    .txt-loading{
+        font-size: 80px;
+    }
     .main_menu ul li a i{
         display: none;
     }
@@ -188,6 +196,14 @@
     }
 }
 @media screen and (max-width:1024px) and (min-width:768px){
+     /* ===================preloader=================== */
+    .spinner{
+        height: 140px;
+        width: 140px;
+    }
+    .txt-loading{
+        font-size: 80px;
+    }
     /* ===============banner area================== */
     .img-text h6{
         font-size: 13px;
@@ -344,6 +360,14 @@
     }
 }
 @media screen and (max-width:768px) and (min-width:425px){
+    /* ===================preloader=================== */
+    .spinner{
+        height: 120px;
+        width: 120px;
+    }
+    .txt-loading{
+        font-size: 40px;
+    }
     /* ===============banner area================== */
     .copy-rights{
         text-align:center;
@@ -555,6 +579,14 @@
     }
 }
 @media screen and (max-width:425px) and (min-width:375px){
+    /* ===================preloader=================== */
+    .spinner{
+        height: 120px;
+        width: 120px;
+    }
+    .txt-loading{
+        font-size: 40px;
+    }
     /* ===============banner area================== */
     .copy-rights{
         text-align:center;
@@ -758,6 +790,14 @@
     }
 }
 @media screen and (max-width:375px) and (min-width:320px){
+    /* ===================preloader=================== */
+    .spinner{
+        height: 120px;
+        width: 120px;
+    }
+    .txt-loading{
+        font-size: 40px;
+    }
     /* ===============banner area================== */
     .copy-rights{
         text-align:center;
