@@ -240,6 +240,135 @@ ul{
         color: var(--ColorWhite);
     }
 }
+/* ======================preloader============================== */
+.preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--ColorWhite);
+    z-index: 9999999;
+}
+.a-preloader {
+    z-index: 1000;
+}
+.spinner {
+    animation: spinner 1s infinite linear;
+    border-radius: 50%;
+    border: 3px solid var(--Bgsky);
+    border-top-color: var(--BgColor);
+    height: 144px;
+    width: 144px;
+    margin: 0 auto 56px auto;
+}
+@keyframes spinner {
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+.txt-loading{
+    font: bold 100px var(--FontM);
+    text-align: center;
+}
+.txt-loading .l-loading {
+  color: var(--BgBlue);
+  position: relative;
+}
+
+.txt-loading .l-loading:nth-child(2):before {
+    animation-delay: 0.2s;
+}
+
+.txt-loading .l-loading:nth-child(3):before {
+    animation-delay: 0.4s;
+}
+
+.txt-loading .l-loading:nth-child(4):before {
+    animation-delay: 0.6s;
+}
+
+.txt-loading .l-loading:nth-child(5):before {
+    animation-delay: 0.8s;
+}
+
+.txt-loading .l-loading:nth-child(6):before {
+    animation-delay: 1s;
+}
+
+.txt-loading .l-loading:nth-child(7):before {
+    animation-delay: 1.2s;
+}
+
+.txt-loading .l-loading:nth-child(8):before {
+    animation-delay: 1.4s;
+}
+
+.txt-loading .l-loading::before {
+    animation: l-loading 4s infinite;
+    color: var(--BgBlue);
+    content: attr(data-text-preloader);
+    left: 0;
+    opacity: 0;
+    font-family:var(--FontM);
+    position: absolute;
+    top: -3px;
+    transform: rotateY(-90deg);
+}
+@keyframes l-loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+
+.preloader p {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: var(--Bgsky);
+}
+
+.preloader .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    z-index: 1;
+}
+.loader .row {
+    height: 100%;
+}
+.loader .l-section {
+    padding: 0px;
+}
+.loader .l-section .bg {
+    background-color: var(--ColorWhite);
+    height: 100%;
+    left: 0;
+    width: 100%;
+    transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+.loaded .a-preloader {
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+.loaded .l-section .bg {
+    width: 0;
+    transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
+}
 /* ==================top header======================= */
 .top-header{
     background-color: var(--BgColor);
@@ -254,7 +383,6 @@ ul{
     background-color: var(--BgBlue);
     height: 100%;
     width: 40%;
-    -webkit-transform: skew(-45deg, 0deg);
     transform: skew(-45deg, 0deg);
 }
 .top-left a{
@@ -341,7 +469,7 @@ ul{
     right: -380px;
     top: 0;
     max-width: 320px;
-    height: 100vh;
+    height: 153vh;
     background-color: var(--Bgsky);
     padding: 20px;
     z-index: 9999;
@@ -358,9 +486,30 @@ ul{
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 400;
 }
-.offcanvas-body .navbar-nav li a i{
-    padding-left: 170px;
+.navbar-nav .has-arrow::after{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 16px;
+    /* top: 20%; */
+    /* bottom: 3%; */
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    transform: rotate(-45deg) translate(0, -50%);
+    transform-origin: top;
+    transition: all .5s ease-out;
 }
+.offcanvas .sidebar-nav .navbar-nav a:hover{
+  text-decoration: none;
+  color: #0D0D0F;
+  background: #d6fa52;
+  padding: 10px 20px;
+}
+/* .offcanvas-body .navbar-nav li a i{
+   position: relative;
+   left:140px;
+} */
 .action-bar {
     margin-top: 30px;
     padding-left: 20px;
@@ -411,19 +560,19 @@ ul{
     display: block;
 }
 /* =====================banner area========================= */
-.banner-area .banner-slide {
+.banner-slide {
     background-position: top center;
     overflow: hidden;
     position: relative;
     z-index: 1;
 }
- .slide-bg {
+ .slide-bg{
     padding: 145px 150px;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     background-position: center;
     background-image: url('../image/slide1.jpg');
+
 }
 .img-text p{
     position: relative;
@@ -1773,6 +1922,8 @@ nav .h-banner{
     bottom: 30px;
     right: 30px;
     box-shadow: 0px 5px 15px 0px rgba(1, 29, 80, 0.1);
-    font-weight: 400;
     transition: all 0.4s ease-in-out;
 }
+
+
+

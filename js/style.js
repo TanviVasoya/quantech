@@ -5,10 +5,6 @@ $("#banner-owl-carousel").owlCarousel({
     loop:true,
     center:true,
     dots:true,
-    // autoplay:true,
-    // autoplayTimeout:4000,
-    // slideBy:2,
-    
 });
 $("#testimonial-owl-carousel").owlCarousel({
     margin: 20,
@@ -16,31 +12,28 @@ $("#testimonial-owl-carousel").owlCarousel({
     loop: true,
     dots:false,
     responsiveClass: true,
-    // autoplay:true,
-    // autoplayTimeout:5000,
-     smartSpeed: 800,
-    //  nav: true,
-     responsive: {
-       0: { 
-         items: 1
-       },
-       320: {
-         items: 1
-       },
-       375: {
-         items: 1
-       },
-       768: {
-         items: 2
-       },
-     
-       1024: {
-         items: 2
-       },
-     
-       1199: {
-         items: 2
-       }
+    smartSpeed: 800,
+    responsive: {
+      0: { 
+        items: 1
+      },
+      320: {
+        items: 1
+      },
+      375: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+    
+      1024: {
+        items: 2
+      },
+    
+      1199: {
+        items: 2
+      }
      }
   })
   var owl = $('.owl-carousel');
@@ -64,19 +57,19 @@ $("#testimonial-owl-carousel").owlCarousel({
         // $('.scrolltop').fadOut()
     }
   })
-   // init Isotope
-    var $grid = $('.grid').isotope({
-    // options
-    });
-    // filter items on button click
-    $('.filter-button-group').on( 'click', 'button', function() {
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-    });
     // scrollUp to top
 
     $('#scrollUp').hide()
     $('#scrollUp').click(function(){
       $('html,body').animate(scrollTop = 0 ,1500)
     })
+
+    // preloader
+
 });
+$(document).ready(function(){
+  setTimeout (function(){
+      $('.preloader').fadeOut();
+    },1000);
+})
+    

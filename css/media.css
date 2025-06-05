@@ -1,6 +1,4 @@
-@media screen and (min-width:992px) and (max-width:1199px) {
-    
-}
+@media screen and (min-width:992px) and (max-width:1199px){}
 @media screen and (max-width:992px) {
     .mob_nav li a{
         padding: 10px !important;
@@ -55,7 +53,6 @@
     .img-text p{
         font-size: 14px;
         width: 68%;
-
     }
     .img-text a{
         padding: 10px 30px;
@@ -78,8 +75,7 @@
         left: 40%;
         top: 72%;
         z-index: 3;
-        transform: translate(-50%, -50%);
-       
+        transform: translate(-50%, -50%); 
     }
     /* =======================Faq area========================= */
     .left-bg::before{
@@ -231,16 +227,13 @@
         top: 74%;
         z-index: 3;
         transform: translate(-50%, -50%);
-       
     }
     .pb-120{
         padding: 80px 0;
     }
     /* =======================Faq area========================= */
-
     .left-bg::before{
         display: none;
-    
     }
     .bg-gradient{
         background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
@@ -352,6 +345,9 @@
 }
 @media screen and (max-width:768px) and (min-width:425px){
     /* ===============banner area================== */
+    .copy-rights{
+        text-align:center;
+    }
     .img-text h6{
         font-size: 13px;
     }
@@ -388,6 +384,9 @@
         font-size: 36px;
     }
     /* ================about area======================= */
+    .about-img-v img:first-of-type {
+        padding-bottom: 20px;
+    }
     .s-title h2{
         font-size: 28px;
     }
@@ -399,20 +398,19 @@
        
     }
     .play-btn .play-v{
-        width: 55px;
-        height: 55px;
+        width: 80px;
+        height: 80px;
         background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
-        line-height: 88px;
+        line-height: 85px;
         transition: all .3s ease-in-out;
         animation: videop infinite 3.5s;
-        font-size: 22px;
-        text-align: center;
+        font-size: 25px;
         color: var(--ColorWhite);
         &:hover{
             color: var(--BgColor);
         }
     }
-     @keyframes videop{
+    @keyframes videop{
         0%{
             box-shadow: 0 0 0 0 rgba(37, 106, 215, 0.2);
         }
@@ -428,11 +426,12 @@
     } 
     .fa-play:before {
         content: "\f04b";
-        top: -15px;
-        position: relative;
+        text-align: center;
     }
     /* =======================Faq area========================= */
-
+    .accordion-btn , .accordion-bo{
+        font-size: 16px;
+    }
     .left-bg::before{
         display: none;
     
@@ -451,8 +450,15 @@
     .fun-counter-2{
         margin-top: 30px;
     }
+    /* =================================services area========================================== */
+    .single-s-left-i ,.service-t-i{
+       text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
     /* =======================Faq area========================= */
-
+    
     .left-bg::before{
         display: none;
     
@@ -550,6 +556,9 @@
 }
 @media screen and (max-width:425px) and (min-width:375px){
     /* ===============banner area================== */
+    .copy-rights{
+        text-align:center;
+    }
     .img-text h6{
         font-size: 13px;
     }
@@ -589,6 +598,9 @@
         font-size: 36px;
     }
     /* ================about area======================= */
+    .about-img-v img:first-of-type {
+        padding-bottom: 50px;
+    }
     .s-title h2{
         font-size: 28px;
     }
@@ -600,14 +612,13 @@
        
     }
     .play-btn .play-v{
-        width: 55px;
-        height: 55px;
+        width: 80px;
+        height: 80px;
         background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
-        line-height: 88px;
+        line-height: 85px;
         transition: all .3s ease-in-out;
         animation: videop infinite 3.5s;
-        font-size: 22px;
-        text-align: center;
+        font-size: 25px;
         color: var(--ColorWhite);
         &:hover{
             color: var(--BgColor);
@@ -629,8 +640,7 @@
     } 
     .fa-play:before {
         content: "\f04b";
-        top: -15px;
-        position: relative;
+        text-align: center;
     }
     .video-con h1 {
         font-size: 36px;
@@ -641,8 +651,17 @@
     .fun-counter-2{
         margin-top: 30px;
     }
+    /* =================================services area========================================== */
+    .single-s-left-i {
+       text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
     /* =======================Faq area========================= */
-
+    .accordion-btn , .accordion-bo{
+        font-size: 15px;
+    }
     .left-bg::before{
         display: none;
     
@@ -650,7 +669,7 @@
     .bg-gradient{
         background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
         overflow: hidden;
-        height: 1170px;
+        height: 1130px;
     }
     /* ==========================testimonial slider=============================== */
     .single-testimonial-c{
@@ -740,16 +759,19 @@
 }
 @media screen and (max-width:375px) and (min-width:320px){
     /* ===============banner area================== */
+    .copy-rights{
+        text-align:center;
+    }
     .img-text h6{
         font-size: 13px;
         width: 100%;
     }
     .img-text h1{
-        font-size: 30px;
+        font-size: 22px;
         width: 100%;
     }
     .img-text p{
-        font-size: 18px;
+        font-size: 12px;
         width: 100%;
     }
     .img-text a{
@@ -779,6 +801,9 @@
         font-size: 36px;
     }
     /* ================about area======================= */
+    .about-img-v img:first-of-type {
+        padding-bottom: 90px;
+    }
     .s-title h2{
         font-size: 28px;
     }
@@ -790,14 +815,13 @@
        
     }   
     .play-btn .play-v{
-        width: 55px;
-        height: 55px;
+        width: 80px;
+        height: 80px;
         background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
-        line-height: 88px;
+        line-height: 85px;
         transition: all .3s ease-in-out;
         animation: videop infinite 3.5s;
-        font-size: 22px;
-        text-align: center;
+        font-size: 25px;
         color: var(--ColorWhite);
         &:hover{
             color: var(--BgColor);
@@ -819,8 +843,7 @@
     } 
     .fa-play:before {
         content: "\f04b";
-        top: -15px;
-        position: relative;
+        text-align: center;
     }
     .video-con h1 {
         font-size: 30px;
@@ -832,7 +855,9 @@
         margin-top: 30px;
     }
     /* =======================Faq area========================= */
-
+    .accordion-btn , .accordion-bo{
+        font-size: 13px;
+    }
     .left-bg::before{
         display: none;
     
@@ -840,7 +865,14 @@
     .bg-gradient{
         background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
         overflow: hidden;
-        height: 1170px;
+        height: 1099px;
+    }
+    /* =================================services area========================================== */
+    .single-s-left-i{
+       text-align: center;
+    }
+    .content p{
+        text-align: center;
     }
     /* ==========================testimonial slider=============================== */
     .single-testimonial-c{
@@ -928,8 +960,3 @@
         max-width: 100%;
     }
 }
-
-
-   
-
-
