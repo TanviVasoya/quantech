@@ -399,13 +399,13 @@ ul{
     visibility: visible;
     transform: translateY(0);
 }
-.nav-item .nav-link{
+.main_menu .navbar-nav .nav-item .nav-link{
     color: var(--BgBlack);
 }
 .main_menu li:hover > a{
     color: var(--BgBlue);
 }
-.sub-menu{
+.main_menu .sub-menu{
     position: absolute;
     top: 100%;
     width: 172px;
@@ -450,20 +450,7 @@ ul{
     font-size: 40px;
 
 }
-/* .offcanvas .sidebar-nav .navbar-nav a:hover {
-    text-decoration: none;
-    color: #0D0D0F;
-    background: #d6fa52;
-}
-
-
-.offcanvas .sidebar-nav .navbar-nav a {
-    position: relative;
-    display: block;
-    transition: all .3s ease-out;
-    text-transform: capitalize;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-} */
+/* ========================offcanvas====================== */
 .offcanvas {
     position: fixed;
     right: -380px;
@@ -486,30 +473,30 @@ ul{
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     font-weight: 400;
 }
-.navbar-nav .has-arrow::after{
-    content: '';
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    right: 16px;
-    /* top: 20%; */
-    /* bottom: 3%; */
-    border-width: 1px 0 0 1px;
-    border-style: solid;
-    transform: rotate(-45deg) translate(0, -50%);
-    transform-origin: top;
-    transition: all .5s ease-out;
+.offcanvas .sidebar-nav .navbar-nav a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    transition: all .3s ease-out;
+    text-decoration: none;
+    color: #fff;
+    outline-width: 0;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
-.offcanvas .sidebar-nav .navbar-nav a:hover{
+.offcanvas-body .sidebar-nav .navbar-nav a:hover{
   text-decoration: none;
-  color: #0D0D0F;
-  background: #d6fa52;
-  padding: 10px 20px;
+  color: var(--BgBlack);
+  background-color:var(--BgColor) ;
 }
-/* .offcanvas-body .navbar-nav li a i{
+.offcanvas .sidebar-nav .navbar-nav li a{
+    color: white;
+}
+.offcanvas .navbar-nav li a i{
    position: relative;
-   left:140px;
-} */
+   left:150px;
+   top: 3px;
+}
 .action-bar {
     margin-top: 30px;
     padding-left: 20px;
@@ -558,6 +545,16 @@ ul{
 .action-bar a {
     color: var(--BgBlack) !important;
     display: block;
+}
+.offcanvas .sidebar-nav .navbar-nav ul a {
+  padding: 10px 15px 10px 35px;
+  position: relative;
+}
+.navbar-nav .collapse .in {
+    display: block;
+}
+.navbar-nav .collapse .out {
+    display: none;
 }
 /* =====================banner area========================= */
 .banner-slide {

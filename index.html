@@ -1026,80 +1026,84 @@
     </button>
     <div class="dropdown mt-3">
       <nav class="sidebar-nav">
-        <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3 ">
-          <li class="nav-item">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3" id="offcanvas">
+          <li class="nav-item ">
             <a class="nav-link has-arrow acte text-capitalize" aria-current="page" href="#">Homes
-              <!-- <i class="bi bi-chevron-left fs-6"></i> -->
+              <i class="bi bi-chevron-left fs-6"></i>
             </a>
-            <ul class="sub-menu">
-              <li><a href="index.html" class="d-inline-block text-white  fw-bold">Home 1</a></li>
-              <li><a href="#" class="d-inline-block text-white  fw-bold">Home 2</a></li>
-              <li><a href="#" class="d-inline-block text-white  fw-bold">Home 3</a></li>
+            <ul class="sub-menu collapse in" aria-expanded="true">
+              <li><i class="bi bi-circle"></i><a href="index.html">Homepage 1</a></li>
+              <li><i class="bi bi-circle"></i><a href="index-2.html">Homepage 2</a></li>
+              <li><i class="bi bi-circle"></i><a href="index-3.html">Homepage 3</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white text-capitalize" href="about.html">about</a>
+            <a class="nav-link text-capitalize" href="#">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-white text-capitalize" href="services.html">services</a>
+            <a class="nav-link  text-capitalize" href="#">services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link has-arrow  text-white text-capitalize" href="#">pages
-              <!-- <i class="bi bi-chevron-left fs-6"></i> -->
+            <a class="nav-link has-arrow   text-capitalize" href="#">pages
+              <i class="bi bi-chevron-left fs-6"></i>
             </a>
             <ul class="sub-menu">
-              <li><a href="faq.html" class="d-inline-block text-white  fw-bold text-capitalize">faq</a></li>
-              <li><a href="team.html" class="d-inline-block text-white  fw-bold text-capitalize">team</a></li>
-              <li><a href="pricing.html" class="d-inline-block text-white  fw-bold text-capitalize">pricing</a></li>
-              <li><a href="404.html" class="d-inline-block text-white  fw-bold text-capitalize">404</a></li>
+              <li><i class="bi bi-circle"></i><a href="faq.html" class="d-inline-block text-white  fw-bold text-capitalize">faq</a></li>
+              <li><i class="bi bi-circle"></i><a href="team.html" class="d-inline-block text-white  fw-bold text-capitalize">team</a></li>
+              <li><i class="bi bi-circle"></i><a href="pricing.html" class="d-inline-block text-white  fw-bold text-capitalize">pricing</a></li>
+              <li><i class="bi bi-circle"></i><a href="404.html" class="d-inline-block text-white  fw-bold text-capitalize">404</a></li>
             </ul>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-white text-capitalize" href="news.html">news</a>
+            <a class="nav-link text-capitalize" href="news.html">news</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white text-capitalize" href="contact.html">contact</a>
+            <a class="nav-link text-capitalize" href="contact.html">contact</a>
           </li>
         </ul>
       </nav>
       <div class="action-bar text-white">
-        <div class="single-info-element">
+        <div class="single-element">
           <div class="icon">
-            <i class="fal fa-map-marked-alt"></i>
+            <i class="fa-solid fa-map-location-dot"></i>
           </div>
           <div class="text">
             <h5>visit our location:</h5>
             <span>West Jakarta City, UK</span>
           </div>
         </div>
-        <div class="single-info-element">
+        <div class="single-element">
           <div class="icon">
-              <i class="fal fa-clock"></i>
+            <i class="bi bi-clock"></i>
           </div>
           <div class="text">
               <h5>Opening Hours:</h5>
               <span>Mon-Fri 8am-5pm</span>
           </div>
         </div>
-        <div class="single-info-element">
+        <div class="single-element">
           <div class="icon">
-              <i class="fal fa-envelope"></i>
+            <i class="bi bi-envelope"></i>
           </div>
           <div class="text">
               <h5>Send us mail</h5>
               <span>info@example.com</span>
           </div>
         </div>
-        <div class="call-us">
+        <div class="call-off">
           <div class="icon text-white">
-              <i class="fal fa-phone-volume"></i>
+            <i class="bi bi-telephone"></i>
           </div>
           <div class="text">
               <h5>Phone Number</h5>
               <span>+09 949 858327</span>
           </div>
         </div>
-        <a href="contact.html" class="theme-btn mt-4">Free Consulting</a>
+        <div class="theme-btn">
+          <a href="contact.html" class=" mt-4 text-center rounded fw-semibold" >
+            Free Consulting
+          </a>
+        </div>
       </div>
     </div>
   </div>
