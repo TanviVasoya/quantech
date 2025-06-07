@@ -456,7 +456,7 @@ ul{
     right: -380px;
     top: 0;
     max-width: 320px;
-    height: 153vh;
+    height: 100vh;
     background-color: var(--Bgsky);
     padding: 20px;
     z-index: 9999;
@@ -555,6 +555,28 @@ ul{
 }
 .navbar-nav .collapse .out {
     display: none;
+}
+.sidebar-nav .navbar-nav .nav-item .sub-menu li a{
+    color:var(--ColorWhite);
+    &:hover{
+        color: var(--BgBlack);
+    }
+}
+
+.offcanvas .sidebar-nav .navbar-nav ul a::before{
+    position: absolute;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    content: "";
+    top: 50%;
+    transition: all .3s ease-in-out;
+    transform: translateY(-50%);
+    &:hover{
+        color: black;
+    }
 }
 /* =====================banner area========================= */
 .banner-slide {
