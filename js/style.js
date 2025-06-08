@@ -59,14 +59,17 @@ $("#testimonial-owl-carousel").owlCarousel({
   })
     // scrollUp to top
 
-    $('#scrollUp').hide()
-    $('#scrollUp').click(function(){
-      $('html,body').animate(scrollTop = 0 ,1500)
-    })
-
-    // preloader
-
+  $('#scrollUp a').on('click', function(event) {
+    var $anchor = $(this);
+    var headerH = '85';
+    $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top - headerH + "px"
+    }, 1000, 'easeInOutExpo');
+    event.preventDefault();
+  });
 });
+
+// preloader
 $(document).ready(function(){
   setTimeout (function(){
       $('.preloader').fadeOut();

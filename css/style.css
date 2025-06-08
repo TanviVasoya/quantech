@@ -448,7 +448,6 @@ ul{
     color: var(--Bgsky);
     text-align: right;
     font-size: 40px;
-
 }
 /* ========================offcanvas====================== */
 .offcanvas {
@@ -574,9 +573,9 @@ ul{
     top: 50%;
     transition: all .3s ease-in-out;
     transform: translateY(-50%);
-    &:hover{
-        color: black;
-    }
+}
+.offcanvas .sidebar-nav .navbar-nav ul a:hover::before{
+    border-color: var(--BgBlack);
 }
 /* =====================banner area========================= */
 .banner-slide {
@@ -1934,7 +1933,7 @@ nav .h-banner{
     border-radius: 50%;
     background-color: var(--BgColor);
     color: var(--BgBlack);
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     line-height: 44px;
     position: fixed;
