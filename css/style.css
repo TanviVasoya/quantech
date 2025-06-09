@@ -1443,9 +1443,8 @@ nav .h-banner{
     color: var(--BgBlack);
 }
 .plan-s-list li i{
-    /* color: var(--BgBlack); */
     position: relative;
-    left: 280px;
+    left: 240px;
     font-size: 20px;
 }
 .error-btn{
