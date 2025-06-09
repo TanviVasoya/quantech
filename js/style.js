@@ -5,6 +5,8 @@ $("#banner-owl-carousel").owlCarousel({
     loop:true,
     center:true,
     dots:true,
+    autoplay: true,
+    speed: 4000,
 });
 $("#testimonial-owl-carousel").owlCarousel({
     margin: 20,
@@ -36,6 +38,9 @@ $("#testimonial-owl-carousel").owlCarousel({
       }
      }
   })
+
+  // animated js
+
   var owl = $('.owl-carousel');
   owl.owlCarousel();
   // Listen to owl events:
@@ -43,6 +48,8 @@ $("#testimonial-owl-carousel").owlCarousel({
   new WOW().init();
   })
   new WOW().init();
+   
+  // fixed header
 
   $(window).scroll(function(){
     var h = $(window).scrollTop()
@@ -57,18 +64,7 @@ $("#testimonial-owl-carousel").owlCarousel({
         // $('.scrolltop').fadOut()
     }
   })
-    // scrollUp to top
-
-  $('#scrollUp a').on('click', function(event) {
-    var $anchor = $(this);
-    var headerH = '85';
-    $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top - headerH + "px"
-    }, 1000, 'easeInOutExpo');
-    event.preventDefault();
-  });
 });
-
 // preloader
 $(document).ready(function(){
   setTimeout (function(){
