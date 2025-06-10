@@ -829,6 +829,7 @@ ul{
 .faq-img img{
     max-width: 100%;
     vertical-align: middle;
+    border-radius: 8px;
 }
 .accordion .accordion-i{
     border: 1px solid #999;
