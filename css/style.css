@@ -1677,6 +1677,7 @@ nav .h-banner{
     padding: 20px;
     width: 100%;
     border: none;
+    outline: none;
 }
 .search-widget form button {
     position: absolute;
@@ -1804,81 +1805,6 @@ nav .h-banner{
     }
 }
 /* =======================contact page======================= */
-.contact-card {
-    background-color: #F3F2F8;
-    padding: 40px;
-    margin-bottom: 30px;
-    transition: all .3s ease-in-out;
-    &:hover{
-        background-color: var(--Bgsky);
-    }
-}
-.top-part{
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-}
-.contact-card .top-part .con-i {
-    width: 70px;
-    height: 70px;
-    font-size: 20px;
-    line-height: 70px;
-    border-radius: 50%;
-    background-color: #d6fa52;
-    text-align: center;
-    float: left;
-    color: #0D0D0F;
-    overflow: hidden;
-    margin-right: 20px;
-}
-.contact-card h4{
-    font-size: 22px;
-    font-family: var(--FontM);
-    font-weight: 600;
-    color: var(--BgBlack);
-    line-height: 130%;
-}
-.contact-card:hover h4{
-    color: var(--ColorWhite);
-}
-.contact-card:hover span{
-    color: var(--ColorWhite);
-}
-.contact-card .bottom-part {
-    margin-top: 25px;
-    overflow: hidden;
-}
-.contact-card .bottom-part .info {
-    display: inline-block;
-    overflow: hidden;
-}
-.contact-card p {
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--FontColor);
-    margin: 0;
-}
-.contact-card:hover p{
-    color: var(--ColorWhite);
-}
-.contact-card .bottom-part .icon {
-    width: 50px;
-    height: 50px;
-    font-size: 14px;
-    line-height: 50px;
-    border-radius: 50%;
-    background-color: #fff;
-    text-align: center;
-    float: right;   
-    overflow: hidden;
-    margin-left: 20px;
-}
-.contact-card:hover .icon{
-    color: var(--Bgsky);
-}
-.personal-info {
-    margin-bottom: 20px;
-}
 .contact-form label {
     color: #202426;
     font-weight: 600;
