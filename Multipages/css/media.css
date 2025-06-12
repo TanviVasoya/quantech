@@ -1,0 +1,1002 @@
+@media screen and (min-width:992px) and (max-width:1199px){}
+@media screen and (max-width:992px) {
+    .mob_nav li a{
+        padding: 10px !important;
+    }
+    .header-1 {
+        padding: 15px 0px;
+    }
+    .menu-bar{
+        color: white;
+        background: linear-gradient(90.15deg, var(--accent-color) 1.15%, var(--accent-secondary-color) 98.84%);
+        font-size: 30px !important;
+        border-radius: 10px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .mob-view{
+        background-color:linear-gradient(90.15deg, var(--accent-color) 1.15%, var(--accent-secondary-color) 98.84%) !important;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+    .main_menu li a{
+        padding: 15px !important;
+    }
+    .collapse:not(.show) {
+        display: none;
+    }
+} 
+@media screen and (max-width:1420px) and (min-width:1024px){
+     /* ===================preloader=================== */
+    .spinner{
+        height: 140px;
+        width: 140px;
+    }
+    .txt-loading{
+        font-size: 80px;
+    }
+    .main_menu ul li a i{
+        display: none;
+    }
+    .theme-btn-h a{
+        padding: 14px 20px;
+    }
+    /* ===============banner area================== */
+    .img-text h6{
+        font-size: 15px;
+    }
+    .img-text h1{
+        font-size: 46px;
+    }
+    .img-text p{
+        font-size: 14px;
+        width: 68%;
+    }
+    .img-text a{
+        padding: 10px 30px;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:80px;
+        transition-duration: .6s;
+    }
+    /* ================about area======================= */
+    .s-title h2{
+        font-size: 42px;
+    }
+    .about-img-v .play-btn {
+        left: 40%;
+        top: 72%;
+        z-index: 3;
+        transform: translate(-50%, -50%); 
+    }
+    /* =======================Faq area========================= */
+    .left-bg::before{
+        display: none;
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1410px;
+    }
+    /* =================== project================== */
+    .project-card{
+        height: 540px;
+        border-radius:8px;
+    }
+     /* ====================video banner========================= */
+
+    .video-con h1{
+        font-family: var(--FontM);
+        font-size: 48px;
+        line-height: 1.4;
+        width: 100%;
+    }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .fun-counter-2{
+        margin-top: -50px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 454px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .quote-text h2{
+        font-size: 30px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+     /* ===================preloader=================== */
+    .spinner{
+        height: 140px;
+        width: 140px;
+    }
+    .txt-loading{
+        font-size: 80px;
+    }
+    /* ===============banner area================== */
+    .img-text h6{
+        font-size: 13px;
+    }
+    .img-text h1{
+        font-size: 34px;
+    }
+    .img-text p{
+        font-size: 13px;
+        width: 71%;
+    }
+    .img-text a{
+        padding: 15px 30px;
+    }
+    .slide-bg{
+        padding: 100px 100px;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+    .page-h h1{
+        font-size: 36px;
+    }
+    /* ================about area======================= */
+    .s-title h2{
+        font-size: 40px;
+    }
+    .about-img-v .play-btn {
+        left: 40%;
+        top: 74%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+    }
+    .pb-120{
+        padding: 80px 0;
+    }
+    /* =======================Faq area========================= */
+    .left-bg::before{
+        display: none;
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1410px;
+    }
+    /* ======================video banner========================= */
+    .mt{
+        margin-top: 30px;
+    }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
+    /* ==============================footer================================ */
+    footer .footer-b .bottom-con{
+        padding: 20px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 334px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 36px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:768px) and (min-width:425px){
+    /* ===================preloader=================== */
+    .spinner{
+        height: 120px;
+        width: 120px;
+    }
+    .txt-loading{
+        font-size: 40px;
+    }
+    /* ===============banner area================== */
+    .copy-rights{
+        text-align:center;
+    }
+    .img-text h6{
+        font-size: 13px;
+    }
+    .img-text h1{
+        font-size: 25px;
+        width: 124%;
+        margin:0 -20px;
+    }
+    .img-text p{
+        font-size: 13px;
+        width: 124%;
+        margin-left: -22px;
+    }
+    .img-text a{
+        padding: 15px 30px;
+    }
+    .slide-bg{
+        padding: 100px 100px;
+    }
+    .owl-theme .owl-nav .owl-prev,.owl-next span{
+        display: none;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+    .page-h h1{
+        font-size: 36px;
+    }
+    /* ================about area======================= */
+    .about-img-v img:first-of-type {
+        padding-bottom: 20px;
+    }
+    .s-title h2{
+        font-size: 28px;
+    }
+    .about-img-v .play-btn{
+        left: 40%;
+        top: 47%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }
+    .play-btn .play-v{
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
+        line-height: 85px;
+        transition: all .3s ease-in-out;
+        animation: videop infinite 3.5s;
+        font-size: 25px;
+        color: var(--ColorWhite);
+        &:hover{
+            color: var(--BgColor);
+        }
+    }
+    @keyframes videop{
+        0%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0.2);
+        }
+        40%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        80%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        100%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0)
+        }
+    } 
+    .fa-play:before {
+        content: "\f04b";
+        text-align: center;
+    }
+    /* =======================Faq area========================= */
+    .accordion-btn , .accordion-bo{
+        font-size: 16px;
+    }
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1170px;
+    }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
+    /* =================================services area========================================== */
+    .single-s-left-i ,.service-t-i{
+       text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
+    /* =======================Faq area========================= */
+    
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1170px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 30px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:425px) and (min-width:375px){
+    /* ===================preloader=================== */
+    .spinner{
+        height: 120px;
+        width: 120px;
+    }
+    .txt-loading{
+        font-size: 40px;
+    }
+    /* ===============banner area================== */
+    .copy-rights{
+        text-align:center;
+    }
+    .img-text h6{
+        font-size: 13px;
+    }
+    .img-text h1{
+        font-size: 17px;
+        width: 100%;
+    }
+    .img-text p{
+        font-size: 13px;
+        width: 124%;
+        margin-left: -22px;
+    }
+    .img-text a{
+        padding: 13px 30px;
+        font-size: 14px;
+    }
+    .about-img-v img + img{
+        width: 330px;
+    }
+    .slide-bg{
+        padding: 100px 100px;
+    }
+    .owl-theme .owl-nav .owl-prev,.owl-next span{
+        display: none;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+     .page-h h1{
+        font-size: 36px;
+    }
+    /* ================about area======================= */
+    .about-img-v img:first-of-type {
+        padding-bottom: 50px;
+    }
+    .s-title h2{
+        font-size: 28px;
+    }
+    .about-img-v .play-btn{
+        left: 40%;
+        top: 47%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }
+    .play-btn .play-v{
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
+        line-height: 85px;
+        transition: all .3s ease-in-out;
+        animation: videop infinite 3.5s;
+        font-size: 25px;
+        color: var(--ColorWhite);
+        &:hover{
+            color: var(--BgColor);
+        }
+    }
+     @keyframes videop{
+        0%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0.2);
+        }
+        40%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        80%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        100%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0)
+        }
+    } 
+    .fa-play:before {
+        content: "\f04b";
+        text-align: center;
+    }
+    .video-con h1 {
+        font-size: 36px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
+    /* =================================services area========================================== */
+    .single-s-left-i {
+       text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
+    /* =======================Faq area========================= */
+    .accordion-btn , .accordion-bo{
+        font-size: 15px;
+    }
+    .left-bg::before{
+        display: none;
+
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1130px;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 99%;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 170px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 22px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:375px) and (min-width:320px){
+    /* ===================preloader=================== */
+    .spinner{
+        height: 120px;
+        width: 120px;
+    }
+    .txt-loading{
+        font-size: 37px;
+    }
+    /* ===============banner area================== */
+    .copy-rights{
+        text-align:center;
+    }
+    .img-text h6{
+        font-size: 13px;
+        width: 100%;
+    }
+    .img-text h1{
+        font-size: 22px;
+        width: 100%;
+    }
+    .img-text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .img-text a{
+        padding: 13px 30px;
+        font-size: 14px;
+    }
+    .about-img-v img + img{
+        width: 330px;
+    }
+    .slide-bg{
+        padding: 100px 50px;
+    }
+    .owl-theme .owl-nav .owl-prev,.owl-next span{
+        display: none;
+    }
+    .owl-theme .owl-dots .owl-dot  span{
+        background-color: rgba(248, 248, 248.04);
+        border:1px solid rgba(248, 248, 248.04);
+        border-radius: 30px;
+        width:16px;
+        height:16px;
+        position: relative;
+        bottom:100px;
+        transition-duration: .6s;
+    }
+    .page-h h1{
+        font-size: 36px;
+    }
+    /* ================about area======================= */
+    .about-img-v img:first-of-type {
+        padding-bottom: 90px;
+    }
+    .s-title h2{
+        font-size: 28px;
+    }
+    .about-img-v .play-btn{
+        left: 40%;
+        top: 47%;
+        z-index: 3;
+        transform: translate(-50%, -50%);
+       
+    }   
+    .play-btn .play-v{
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(0deg, var(--BgBlue) 45.01%, #256AD7 100%);
+        line-height: 85px;
+        transition: all .3s ease-in-out;
+        animation: videop infinite 3.5s;
+        font-size: 25px;
+        color: var(--ColorWhite);
+        &:hover{
+            color: var(--BgColor);
+        }
+    }
+     @keyframes videop{
+        0%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0.2);
+        }
+        40%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        80%{
+            box-shadow: 0 0 0 25px rgba(37, 106, 215, 0);
+        }
+        100%{
+            box-shadow: 0 0 0 0 rgba(37, 106, 215, 0)
+        }
+    } 
+    .fa-play:before {
+        content: "\f04b";
+        text-align: center;
+    }
+    .video-con h1 {
+        font-size: 30px;
+    }
+    .s-fun-counter{
+        margin-top: -50px;
+    }
+    .fun-counter-2{
+        margin-top: 30px;
+    }
+    /* =======================Faq area========================= */
+    .accordion-btn , .accordion-bo{
+        font-size: 13px;
+    }
+    .left-bg::before{
+        display: none;
+    
+    }
+    .bg-gradient{
+        background-image: linear-gradient(115.02deg, #5F2DEE 51.01%, #256AD7 102.64%) !important; 
+        overflow: hidden;
+        height: 1099px;
+    }
+    /* =================================services area========================================== */
+    .single-s-left-i{
+       text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
+    /* ==========================testimonial slider=============================== */
+    .single-testimonial-c{
+        border: 1px solid rgba(109, 109, 109, 0.16);
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-top: 30px !important;
+        transition: all .5s ease-in-out;
+        height: 400px;
+        width: 294px;
+        text-align: center;
+        &:hover{
+            border: 1px solid var(--BgColor);
+        }
+    }
+    .owl-carousel .owl-item img {
+        width: 100px;
+    }
+    .single-testimonial-c .client-img{
+        float:none;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .client-i img{
+        height: 100px;
+    }
+    .client-i i{
+        position: absolute;
+        top: 79px;
+        left: 142px;
+        font-size: 20px;
+    }
+    .client-i::before{
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 130px;
+        height: 40px;
+        width: 40px;
+        background-color: var(--BgColor);
+        border-radius: 50%;
+        text-align: center;
+        color: var(--BgBlack);
+        line-height: 40px;
+    }
+     .single-testimonial-c .testimonial-con p{
+        color: var(--FontColor);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    /* =====================================news area===================================== */
+    .post-co h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-co {
+        padding:50px 10px;
+    }
+    .q-content{
+        padding: 50px 10px ;
+        text-align: center;
+    }
+    .quote-text h2{
+        font-size: 22px;
+    }
+    /* ===========================our pricing============================= */
+    .pricing-plan-box {
+        padding: 40px 20px;
+    }
+    .plan-title h2{
+        font-size: 24px;
+    }
+    .plan-v span{
+        font-size: 60px;
+    }
+    .pricing-plan-box .plan-btn::before {
+        left: -5%;
+        width: 110%;
+    }
+    .price-btn{
+        padding: 15px 30px;
+    }
+    /* ======================404========================= */
+    .error-content img{
+        max-width: 100%;
+    }
+}
