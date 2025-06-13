@@ -65,10 +65,12 @@ $("#testimonial-owl-carousel").owlCarousel({
     }
   })
 });
+
 // preloader
+
 $(document).ready(function(){
   setTimeout (function(){
-      $('.preloader').fadeOut();
-    },1000);
+    $('.preloader').fadeOut();
+  },1000);
 })
     
